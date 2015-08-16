@@ -10,7 +10,12 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.Write("Insert a Number:");
+            int number;
+            int square;
+            number =Convert.ToInt32(Console.ReadLine());
+            square=number*number;
+            Console.WriteLine(square);
         }
     }
 }
