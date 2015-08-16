@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex11</StartupObject>
+    <StartupObject>CSExercises.Ex12</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -68,8 +68,12 @@
     <Compile Include="Ex16-20\Ex19.cs" />
     <Compile Include="Ex16-20\Ex20.cs" />
     <Compile Include="Ex07-15\Ex13.cs" />
-    <Compile Include="Ex07-15\Ex12.cs" />
-    <Compile Include="Ex07-15\Ex11.cs" />
+    <Compile Include="F:\Coding Summer\Ex12.cs">
+      <Link>Ex07-15\Ex12.cs</Link>
+    </Compile>
+    <Compile Include="F:\Coding Summer\Ex11.cs">
+      <Link>Ex07-15\Ex11.cs</Link>
+    </Compile>
     <Compile Include="F:\Coding Summer\Ex10.cs">
       <Link>Ex07-15\Ex10.cs</Link>
     </Compile>
