@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CSExercises.Ex32</StartupObject>
+    <StartupObject>CSExercises.Ex33</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -106,7 +106,9 @@
     <Compile Include="Ex30-31\Ex30.cs" />
     <Compile Include="Ex30-31\Ex31.cs" />
     <Compile Include="Ex32-34\Ex32.cs" />
-    <Compile Include="Ex32-34\Ex33.cs" />
+    <Compile Include="..\..\..\Coding Summer\Ex33.cs">
+      <Link>Ex32-34\Ex33.cs</Link>
+    </Compile>
     <Compile Include="Ex32-34\Ex34.cs" />
     <Compile Include="Ex35-38\Ex35.cs" />
     <Compile Include="Ex35-38\Ex36.cs" />
